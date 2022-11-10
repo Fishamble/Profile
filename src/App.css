@@ -1,6 +1,7 @@
 .App {
   /* font-size: 200px; */
   font-family: "MyFont";
+  width:100vw;
 }
 
 .spacer {
