@@ -16,7 +16,7 @@ export default function Logos() {
   const animateSettings = { scale: 0.9, translateY: moveLogosBy };
 
   return (
-    <motion.div className="logos-wrapper" initial={{ scale: 1.5, translateY: 0 }} animate={animateSettings} transition={{ delay: 7, duration: 1 }}>
+    <motion.div className="logos-wrapper" initial={{ scale: 1, translateY: 0 }} animate={animateSettings} transition={{ delay: 7, duration: 1 }}>
       {logoArray.map((logo, index) => {
         return (
           <motion.div
