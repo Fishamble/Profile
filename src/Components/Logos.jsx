@@ -12,11 +12,11 @@ export default function Logos() {
   const logoArray = [cssLogo, html5Logo, reactLogo, tailwindLogo];
   const { width } = useWindowDimensions();
 
-  let moveLogosBy = width > 1024 ? -50 : 0;
-  const animateSettings = { scale: 0.7, translateY: moveLogosBy };
+  let moveLogosBy = width > 1024 ? 0 : 0;
+  const animateSettings = { scale: 0.9, translateY: moveLogosBy };
 
   return (
-    <motion.div className="logos-wrapper" initial={{ scale: 1, translateY: 0 }} animate={animateSettings} transition={{ delay: 7, duration: 0.6 }}>
+    <motion.div className="logos-wrapper" initial={{ scale: 1.5, translateY: 0 }} animate={animateSettings} transition={{ delay: 7, duration: 1 }}>
       {logoArray.map((logo, index) => {
         return (
           <motion.div

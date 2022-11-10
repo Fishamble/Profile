@@ -3,6 +3,9 @@
   font-family: "MyFont";
 }
 
+.spacer {
+  height: 100px;
+}
 .name {
   text-align: center;
 }
@@ -67,27 +70,27 @@
 @media (max-width: 768px) {
   /* Tablet */
   .App {
-    font-size: 80px;
+    font-size: 120px;
   }
 }
 
 @media (max-width: 425px) {
   /* mobile L */
   .App {
-    font-size: 70px;
+    font-size: 100px;
   }
 }
 
 @media all and (max-width: 375px) {
   /* mobile M */
   .App {
-    font-size: 55px;
+    font-size: 85px;
   }
 }
 
 @media all and (max-width: 320px) {
   /* mobile S */
   .App {
-    font-size: 40px;
+    font-size: 70px;
   }
 }
