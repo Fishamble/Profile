@@ -1,38 +1,93 @@
 .App {
+  /* font-size: 200px; */
+  font-family: "MyFont";
+}
+
+.name {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.letters {
+  display: inline;
+  text-align: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.web-design {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 0.15em;
+  text-align: center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.technologies {
+  height: 1em;
   display: flex;
-  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.logos-wrapper {
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  border-bottom: 2px solid black;
 }
 
-.App-link {
-  color: #61dafb;
+.logo {
+  max-height: 0.6em;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media (min-width: 2560px) {
+  /* laptop L*/
+  .App {
+    font-size: 250px;
   }
-  to {
-    transform: rotate(360deg);
+}
+
+@media (max-width: 2560px) {
+  /* laptop L*/
+  .App {
+    font-size: 250px;
+  }
+}
+
+@media (max-width: 1440px) {
+  /* laptop L*/
+  .App {
+    font-size: 200px;
+  }
+}
+
+@media (max-width: 1024px) {
+  /* laptop */
+  .App {
+    font-size: 150px;
+  }
+}
+
+@media (max-width: 768px) {
+  /* Tablet */
+  .App {
+    font-size: 80px;
+  }
+}
+
+@media (max-width: 425px) {
+  /* mobile L */
+  .App {
+    font-size: 70px;
+  }
+}
+
+@media all and (max-width: 375px) {
+  /* mobile M */
+  .App {
+    font-size: 55px;
+  }
+}
+
+@media all and (max-width: 320px) {
+  /* mobile S */
+  .App {
+    font-size: 40px;
   }
 }
